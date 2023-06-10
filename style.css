@@ -4,15 +4,15 @@
 }
 body {
     margin: 0;
-    background-color: #ebf5df;
+    background-color: #b9b2b19c;
 }
-#container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-#calculator {
+.calculadora {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
@@ -43,7 +43,7 @@ button:focus {
 .columna-2 {
     grid-column: span 2;
 }
-#screen {
+.display {
     grid-column: 1 / -1;
     padding: 13px;
     display: flex;
